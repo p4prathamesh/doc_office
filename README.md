@@ -1,5 +1,5 @@
 # doc_office
-An Application for doctor to keep track of their patients.
+A complete Dentist Application for a clinic
 
 # Doctor’s office
 An Application for doctor to keep track of their patients.

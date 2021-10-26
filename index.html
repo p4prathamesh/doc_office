@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="content">
+            <div>
+                <p>Welcome to</p>
+                <h2>Sankalp Multispeciality Dental Clinic</h2>
+                <a href="authentication.php">Get Started</a>
+            </div>
+        </div>
+        <div class="imgBox">
+            <img src="img/home.svg">
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/p4prathamesh/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        </ul>
+    </section>
+    <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+    <script type="text/javascript">
+        function menuToggle(){
+            var nav = document.getElementById("nav");
+            nav.classList.toggle('active')
+            var toggle = document.getElementById("toggle");
+            toggle.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
